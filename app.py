@@ -19,6 +19,10 @@ st.markdown("""
     #MainMenu {visibility: hidden;}
     footer {visibility: hidden;}
     
+    /* Hide Streamlit's default page navigation */
+    [data-testid="stSidebarNav"] {display: none;}
+    section[data-testid="stSidebarNav"] {display: none;}
+    
     /* Main container */
     .main {
         padding: 2rem;
